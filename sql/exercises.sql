@@ -28,7 +28,7 @@ SELECT last_name FROM actor;
 # total_rental_cost     rental_duration * rental_rate
 SELECT
     title,
-    descritption,
+    description,
     rental_duration,
     rental_rate,
     rental_duration * rental_rate as total_rental_cost
@@ -40,7 +40,7 @@ FROM film;
 ## 2. DISTINCT operator
 
 # 2a. Select all distinct (different) last names from the actor table.
-SELECT DISTINCT last_names from actor;
+SELECT DISTINCT last_name from actor;
 
 # 2b. Select all distinct (different) postal codes from the address table.
 SELECT DISTINCT postal_code from address;
